@@ -23,35 +23,46 @@
 <body>
 
   <!-- กล่อง 1: เมนูบาร์ -->
-  <div id="toppage" class=" my-2 text-center container ">
-    <nav class="navbar navbar-expand-lg container">
-      <div class="text-center container ">
-        <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="" width="50"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white"> <!-- ใส่ text-white ตรงนี้ -->
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#ควรค่า" target="_blank">
-                ทำไม “วิมานหนาม” จึงควรค่าแก่การอ่าน?
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#ประโยชน์">ประโยชน์จากการอ่าน</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#เรื่องย่อ">เรื่องย่อ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#content01">About Author</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-0">
+    
+    <!-- โลโก้ (ไม่มีพื้นหลัง) -->
+    <div class="logo-wrapper px-3 py-2">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.webp" alt="" width="50">
+      </a>
+    </div>
+
+    <!-- เมนูที่มีพื้นหลังสีส้ม -->
+    <div class="menu-wrapper w-100">
+      <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#ควรค่า" target="_blank">ทำไม “วิมานหนาม” จึงควรค่าแก่การอ่าน?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#ประโยชน์">ประโยชน์จากการอ่าน</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#เรื่องย่อ">เรื่องย่อ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#content01">About Author</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+
   </div>
+</nav>
+
+
 
   <!-- กล่อง 2: ข้อความหลัก (หัวข้อ) -->
   <div class="row align-items-center">
@@ -88,8 +99,7 @@
     <div style="display: flex; gap: 20px; flex-wrap: wrap; align-items: flex-start; max-width: 900px; margin: 0 auto;">
 
       <!-- กล่องข้อความ -->
-      <div style="
-    flex: 1;
+      <div style="flex:1;
     min-width: 300px;
     max-width: 500px;
     padding: 20px;
