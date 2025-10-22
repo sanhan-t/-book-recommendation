@@ -1,0 +1,59 @@
+    body {
+    font-family: 'IBM Plex Sans Thai Looped'; }
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Prompt', Light 300 Italic;
+}
+  .menu-bar {
+  background-color: 	#fb5d39;
+  }
+
+  .back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+       
+
+body {
+  font-family: "Anuphan", sans-serif;
+}
+/* ใช้ Kanit สำหรับหัวข้อ */
+h2 {
+  font-family: 'Cinzel', sans-serif;
+}
+h5 {
+  font-family: 'Taviraj', sans-serif;
+}
+h4 {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+.section-title {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
